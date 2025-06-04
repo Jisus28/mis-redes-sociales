@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang en >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width", initial-scale="1.0">
+    <title> Social Media Animation</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+
+        }
+        
+        body {
+            background: url(fondo\ escuadron.jpg) #9bb4c2;
+            display: flex;
+            font-family: 'Ubuntu',sans-serif;
+            
+        }
+        
+        .container{
+            margin: 50px auto;
+            width: 90%;
+        
+        header h1{
+            
+            margin-bottom: 10px;
+            text-align: center;
+            color: #fff;
+            font-family: 'Ubuntu', sans-serif;
+            }
+            .accordian {
+                background-color: lighten(#2196f3, 9);
+                width: 100%;
+                min-width: 800px;
+                display: block;
+                list-style-type: none;
+                overflow: hidden;
+                height: 200px;
+                font-size: 0;
+                -webkit-box-shadow: 1px 1px 8px 1px(0, 0, 0, 0,75);
+                -moz-box-shadow: 1px 1px 8px 1px(0, 0, 0, 0.75);
+                box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.75);
+
+                .tab{
+                    display: inline-block;
+                    background-color: darken( #2196f3, 10);
+                    border: lighten(#2196f3, 10)1px solid;
+                    width: 80px;
+                    height: 200px;
+                    overflow: hidden;
+                    position: relative;
+                    margin: 0;
+                    transition: all 0.5s ease-in-out 0.1s;
+
+                    &:hover{
+                        width: 450px;
+
+                    
+                    .social a::before{
+                        margin-left: -100px;
+                    }
+                    .social a::after {
+                        margin-left: -5px;
+                    
+                    }
+                    }
+                    .content{
+                        background: #fff;
+                        width: 360px;
+                        height: 200px;
+                        margin-left: 80px;
+                        position: relative;
+                        padding: 50px 0 0 5px;
+
+                    h1{
+                        font-size: 2.5rem;
+                        margin-bottom: 10px;
+                        
+
+                    }
+                    p{
+                        font-size: 0.85rem;
+                        line-height: 1.4rem;
+                        padding-right: 30px;
+                    }
+                    }
+                    .social a::before,
+                    .social a::after {
+                    transition: all 0.4s ease-in-out 0.1s;
+                    width: 80px;
+                    height: 200px;
+                    position: absolute;
+                    text-indent: 0;
+                    padding-top: 90px;
+                    padding-left: 25px;
+                    display: block;
+                    font: normal 30px 'Font Awesome 5 Free',
+                    'Font Awesome 5 Brands';
+                    color: #fff;
+
+
+                    }
+
+                    .social a::after{
+                        font-size: 49px;
+                        padding-left: 20px;
+                        padding-top: 80px;
+                        margin-left: 85px;
+                    }
+
+                    .youtube a::before, 
+                    .youtube a::after{
+                    content: '\f167';
+                    }
+                    .youtube a::after {
+                        background-color: #ff0000;
+                    }
+
+                    .threads a::before,
+                    .threads a::after{
+                        font-family: "Font Awesome 6 Brands";
+                        content: "\e618";
+                    }
+                    .threads a::after{
+                        background-color: #569;
+                    }
+                    .facebook a::before,
+                    .facebook a::after{
+                        content: '\f082';
+                    }
+                    .facebook a::after{
+                        background-color: rgb(44, 60, 166);
+                    }
+                    .github a::before,
+                    .github a::after{
+                        content: '\f09b';
+                    }
+                    .github a::after{
+                        background-color: #000;
+
+                    }
+                    .spotify a::before,
+                    .spotify a::after{
+                        font-family: "Font Awesome 6 Brands";
+                        content: '\f1bc';
+                    }
+                    .spotify a::after{
+                        background-color: #175;
+                    }
+                    .instagram a::before,
+                    .instagram a::after{
+                        content: '\f16d';
+                    }
+                    .instagram a::after{
+                        background-color: #e13cbd;
+                    }
+                }
+
+                }
+                
+            }
+            @media(max-width:950px) {
+                .container{
+                width: 70%;
+                .accordian{
+                display: block;
+                min-width: 450px;
+                height: auto;
+                .tab{
+                width: 85%;
+                &:hover{
+                width: 100%;
+                .content{
+                display: block;
+                width: 100%;
+                border-bottom: 3px #333| solid|;
+
+                }
+                }
+                }
+                    
+                }
+                }
+            }
+            @media (max-width: 680px) {
+                .container{
+                    width: 95%;
+                .accordian {
+                    width: 100%;
+                    min-width: 350px;
+                }
+
+                }
+
+            }
+
+           
+
+
+
+    
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <header>
+    <h1>Siguenos en redes sociales!</h1>
+    </header>
+    <ul class="accordian">
+    <li class="tab">
+    <div class="social youtube">
+    <a href="https://www.youtube.com/@Escuadroncristocentrico"
+     target="_blank">youtube</a>
+    </div>
+    <div class="content">
+    <h1>Youtube</h1>
+    <p>Subscribete a nuestro canal</p>
+    </div>
+    </li>
+    <li class="tab">
+    <div class="social facebook">
+    <a href="https://www.facebook.com/profile.php?id=61566388274621"
+    target="_blank">Facebook</a>
+    </div>
+    <div class="content">
+    <h1>Facebook</h1>
+    <p>Siguenos en facebook</p>
+    </div>
+    </li>
+    <li class="tab">
+    <div class="social threads">
+    <a href="https://www.threads.com/@escuadroncristocentrico?xmt=AQF0cCcQjv8sUkOjusuBceSMB_ogxc9jXOyIQHeSFixuHms"
+     target="_blank">Threads</a>
+    </div>
+    <div class="content">
+    <h1>Threads</h1>
+    <p>Siguenos en Threads</p>
+    </div>
+    </li>
+    <li class="tab">
+        <div class="social github">
+            <a href="https://www.github.com"
+            target="_blank">Github</a>
+        </div>
+        <div class="content">
+            <h1>Github</h1>
+            <p>Proyecto en Github</p>
+        </div>
+    </li>
+    <li class="tab">
+        <div class="social spotify">
+            <a href="https://open.spotify.com/show/1QIYeM0lKdYOaAgFW88zr6?si=-VFPMe-3TIi9V3YuzWlFWA&nd=1&dlsi=13d6407d06ae4e05"
+            target="_blank">Spotify|</a>
+        </div>
+        <div class="content">
+            <h1> Spotify</h1>
+            <p>Siguenos en Spotify</p>
+        </div>
+    </li>
+    <li class="tab">
+        <div class="social instagram">
+        <a href="https://www.instagram.com/escuadroncristocentrico/"
+        target="_blank">Instagram</a>
+        </div>
+        <div class="content">
+            <h1>Instagram</h1>
+            <p>Siguenos en Instagram</p>
+        </div>
+    </li>
+        </ul>
+    </div>
+    
+</body>
+
+</html>
